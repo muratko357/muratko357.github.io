@@ -2572,6 +2572,11 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		.responsive-image {
+		    max-width: 100%;  /* Allows the image to scale down */
+		    height: auto;     /* Maintains the aspect ratio */
+		    border-radius: 8px;  /* Keeps the styling consistent */
+		}
 
 /* List */
 
