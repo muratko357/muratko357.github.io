@@ -2,9 +2,11 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 /*
+Modified from:
     Stellar by HTML5 UP
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -2576,6 +2578,13 @@ input, select, textarea {
 		    max-width: 100%;  /* Allows the image to scale down */
 		    height: auto;     /* Maintains the aspect ratio */
 		    border-radius: 8px;  /* Keeps the styling consistent */
+		}
+		.img-frame {
+		    padding: 20px;*/
+			border: 2px solid #f2ecd3; /* This is a light gray border */
+		    background-color: d4ccab; /* Light gray background */
+		    display: block;
+		    margin: auto; /* Centers the image if the container is wider than the image */
 		}
 
 /* List */
