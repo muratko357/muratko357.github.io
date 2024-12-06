@@ -29,6 +29,41 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+<style>
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: space-between; /* Spaces out the columns evenly */
+    gap: 20px; /* Adds space between columns */
+}
+
+.container section {
+    flex: 1; /* Each section takes equal width */
+    padding: 10px; /* Padding inside each section */
+    min-width: 300px; /* Minimum width for each column */
+}
+
+.container ul {
+    list-style-type: none; /* Removes default list bullet */
+    padding: 0; /* Removes default padding */
+}
+
+.container li {
+    margin-bottom: 10px; /* Adds space between list items */
+    line-height: 1.4; /* Improves readability of list items */
+}
+.wrapper.style1 ul {
+    font-size: 1.2em; /* Adjusts the size to be larger than the default */
+    line-height: 1.5; /* Increases line height for better readability */
+    list-style-type: disc; /* Optional: changes the bullet style */
+}
+
+.wrapper.style1 li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+</style>
+
 body {
 	line-height: 1;
 }
@@ -2138,7 +2173,7 @@ input, select, textarea {
 		}
 
 		#top p {
-			font-size: 1.5em;
+			font-size: 1.25em;
 			line-height: 1.75em;
 		}
 
