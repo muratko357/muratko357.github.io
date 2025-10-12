@@ -42,12 +42,26 @@ body {
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between logo and text */
+}
+
 .logo a {
   font-size: 1.4rem;
   font-weight: 700;
   color: #333;
   text-decoration: none;
 }
+
+
+.logo img {
+  height: 40px;      /* adjust as needed */
+  width: auto;
+  display: block;
+}
+
 
 .main-nav ul {
   display: flex;
