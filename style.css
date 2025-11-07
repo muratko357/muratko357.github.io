@@ -215,8 +215,8 @@ body {
 }
 
 .about-inline-photo {
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   float: right;
@@ -331,6 +331,13 @@ body {
 
 .portfolio-links a:hover {
   text-decoration: underline;
+}
+
+.portfolio-thumb {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 /* === FOOTER === */
